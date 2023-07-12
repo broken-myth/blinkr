@@ -1,5 +1,7 @@
 <h1><b>Blinkr.</b></h1>
 
+Read the blog [here](https://medium.com/@mritul2003/make-your-own-blink-detection-application-using-python-5e34835a34a9)
+
 A human eye on average blinks up to 20 times a minute. But, this rate drops to less than half while we look at our computer and smartphone screens. This reduced rate of blinking leads to consequences like vision changes and dry eyes.<b> Blinkr was built to combat this and help the users maintain a good eye health.</b>
 
 Blinkr is an app built on top of python utilizing the Mediapipe and OpenCV libraries lets the user set a time interval (10 seconds by default) before starting the session. Once the session begins, the app starts checking for blinks in the time interval specified. If the user has not blinked in the given time interval, the app sends a beep alerting the user to blink. If the user had already blinked, once or more, within the set time duration, the app simply ignores and waits till the next iteration begins.
